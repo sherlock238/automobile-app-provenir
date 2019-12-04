@@ -1,0 +1,63 @@
+/* 'Open Sans' font from Google Fonts */
+/* @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700"); */
+
+/* body {
+  background: #007bff;
+  background: linear-gradient(to right, #0062e6, #33aeff);
+} */
+
+.automobile button[type="submit"] {
+  background: lightgoldenrodyellow;
+  border-color: transparent;
+  /* color: #fff; */
+  cursor: pointer;
+}
+
+/* button {
+  background: lightgoldenrodyellow;
+  border-color: transparent;
+  cursor: pointer;
+} */
+.login_btn {
+  width: 25%;
+  background: rgb(1, 29, 51);
+  color: white !important;
+  margin: 8px;
+}
+.login_btn:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+.login_btn:hover {
+  background: #17c;
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+
+#models {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#models td,
+#models th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#models tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#models tr:hover {
+  background-color: #ddd;
+}
+
+#models th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+}
